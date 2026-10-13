@@ -44,4 +44,5 @@ public class Patient {
     @OneToMany(mappedBy = "patient", cascade = CascadeType.ALL, fetch = FetchType.EAGER) // inverse side
 //    @ToString.Exclude
     private Set<Appointment> appointments = new HashSet<>();
+
 }
