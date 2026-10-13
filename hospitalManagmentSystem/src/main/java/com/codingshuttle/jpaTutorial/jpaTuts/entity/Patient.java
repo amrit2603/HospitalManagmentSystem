@@ -1,5 +1,6 @@
 package com.codingshuttle.jpaTutorial.jpaTuts.entity;
 
+import com.codingshuttle.jpaTutorial.jpaTuts.entity.type.BloodGroupType;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
